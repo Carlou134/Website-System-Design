@@ -28,3 +28,25 @@ a:hover{
     background-color: yellowgreen;
     color: blue;
 }
+
+h1, p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#Colores {
+    border: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.gold-color {
+    position: relative;
+    left: 20px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+}
