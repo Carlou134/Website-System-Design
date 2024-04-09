@@ -38,15 +38,87 @@ h1, p {
 #Colores {
     border: 3px solid black;
     padding-bottom: 10px;
+    width: auto;
+    height: 350px;
 }
 
 .gold-color {
     position: relative;
-    left: 20px;
+    left: 100px;
     background-color: gold;
     color: black;
     font-weight: bold;
     text-align: center;
     width: 400px;
     border: 3px solid black;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.blue {
+    position: relative;
+    left: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.black {
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+    text-transform: uppercase;
+}
+
+.yellowgreen{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    display: inline-block;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+    text-transform: uppercase;
+}
+
+.darkblue {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+    text-transform: uppercase;
+}
+
+.lightgray {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border: 3px solid black;
+    text-transform: uppercase;
 }
