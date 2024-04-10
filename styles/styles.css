@@ -122,3 +122,59 @@ h1, p {
     border: 3px solid black;
     text-transform: uppercase;
 }
+
+
+
+#Fuentes {
+    border: 3px solid black;
+    padding-bottom: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.Roboto-review p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.Verdana-review p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+    position: relative;
+    top: 20px;
+    left: 170px;
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.Roboto-review p:hover{
+    background-color: lightgray;
+}
+
+.Verdana-review p:hover{
+    background-color: lightgray;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.delineado{
+    text-decoration: underline;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
