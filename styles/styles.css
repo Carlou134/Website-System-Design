@@ -1,9 +1,12 @@
+/*Creación de la página*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+/*Cinta de opciones*/
 
 nav{
     border: 3px solid black;
@@ -41,6 +44,9 @@ h1, p {
     padding-bottom: 10px;
     padding-left: 10px;
 }
+
+
+/*Zona de Colores*/
 
 #Colores {
     border: 3px solid black;
@@ -96,16 +102,17 @@ h1, p {
 }
 
 
+/*Zona de Fuentes*/
 
 #Fuentes {
     border: 3px solid black;
     padding-bottom: 10px;
     width: auto;
-    height: 500px;
+    height: 400px;
     display: block;
 }
 
-.Primera-fila p, .Roboto-review p, .Verdana-review p {
+.Primera-fila p, .Roboto-review p, .Verdana-review p, .Geneva-review p {
     font-size: 20px;
     padding: 20px 20px;
     position: relative;
@@ -131,9 +138,16 @@ h1, p {
     left: 170px;
 }
 
-.Roboto-review p:hover, .Verdana-review p:hover, .Primera-fila p:hover{
+.Geneva-review p {
+    font-family: 'Verdana', sans-serif;
+    top: 30px;
+    left: 170px;
+}
+
+.Roboto-review p:hover, .Verdana-review p:hover, .Primera-fila p:hover, .Geneva-review p:hover{
     background-color: lightgray;
 }
+
 
 .negrita {
     font-weight: bold;
@@ -149,4 +163,18 @@ h1, p {
 
 .mayusculas {
     text-transform: uppercase;
+}
+
+/*Zona de Tipografia*/
+
+#Tipografia {
+    border: 3px solid black;
+    padding-bottom: 10px;
+    width: auto;
+    height: 400px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
 }
