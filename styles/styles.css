@@ -56,6 +56,11 @@ h1, p {
     padding-top: 100px;
 }
 
+#Colores p {
+    text-align: justify;
+}
+
+
 .gold-color, .blue, .black, .yellowgreen, .darkblue, .lightgray {
     position: relative;
     left: 100px;
@@ -171,7 +176,17 @@ h1, p {
     border: 3px solid black;
     padding-bottom: 10px;
     width: auto;
-    height: 400px;
+    height: 500px;
+}
+
+#Tipografia h1, h2, p {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#Tipografia ul li {
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
